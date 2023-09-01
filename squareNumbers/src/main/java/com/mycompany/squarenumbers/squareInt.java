@@ -28,7 +28,7 @@ public class squareInt extends SquareNumbers{
     }
     private int[] squareInt(int[] array, int size) {
         int[] squaredArray = new int[size];
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i <= array.length - 1; i++) {
             squaredArray[i] = array[i] * array[i];
         }
         return squaredArray;
